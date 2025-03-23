@@ -1,0 +1,56 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# PDF files
+*.pdf
+
+# Log files
+*.log
+*.log.*
+logs/
+
+# Chroma DB
+chroma_db/
+
+# Temp files
+temp_upload.pdf
+temp_*
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+.env
